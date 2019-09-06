@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Update Price - wolf of wall street 2.0 | 2k29</title>
+    <link rel="icon" type="image" sizes="17x17" href="../vendors/images/wall-street-logo-web.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="side-bar">
+            <div class="side-images">
+                <img src="../vendors/images/wall-street-logo-web.png" alt="logo" class="nav-logo">
+            </div>
+            <div class="side-images">
+                <a href="./dashboard.html"><img src="../vendors/images/dashboard-grey.png" class="images" title="Dashboard"></a>
+            </div>
+            <div class="side-images">
+                <a href="./user.html"><img src="../vendors/images/about-us-grey.png" class="images" title="User Details"></a>
+            </div>
+            <div class="side-images">
+                <img src="../vendors/images/transaction-blue.png" class="images dropdown2" title="Change Price">
+                <div class="dropdown-content">
+                    <a href="./update-price.html"><img src="../vendors/images/update-price-blue.png" alt="price-update" class="dropdown-images" title="Update Price"></a>
+                    <a href="./update-volume.html"><img src="../vendors/images/volume-update-grey.png" alt="volume-update" class="dropdown-images" title="Update Volume"></a>
+                    <a href="./update-base-price.html"><img src="../vendors/images/base-price-grey.png" alt="base-price-update" class="dropdown-images" title="Update Base Price"></a>
+                </div>
+            </div>
+            <div class="side-images">
+                <a href="./news.html"><img src="../vendors/images/add-news-grey.png" class="images" title="Add News"></a>
+            </div>
+            <div class="side-images">
+                <a href="./leaderboard.html"><img src="../vendors/images/leaderboard-grey.png" class="images" title="Leaderboard"></a>
+            </div>
+            <div class="side-images">
+                <a href="./history.html"><img src="../vendors/images/history-grey.png" class="images" title="History"></a>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-timer">
+                <p id="demo"></p>
+            </div>
+            <div class="nav-heading">Wolf of the wall street - 2.0</div>
+            <div class="nav-user">
+                <div class="dropdown">
+                    <span><a href="#">Deexit Patel<img src="../vendors/images/down-arrow-blue.png" style="height:15px; margin-left:5px;"></a></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="../change-password.html">Change Password</a></li>
+                        <li><a href="../index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-wrapper">
+            <div class="leftside">
+                <div class="update-stockprice">
+                    <div class="stockprice-heading">Update Stock Price</div>
+                    <div class="stockprice-content">
+                        <div class="transaction-table">
+                            <div class="table-heading">
+                                <div>Company Name</div>
+                                <div>Current Price</div>
+                                <div>Available Volume</div>
+                                <div>Updated Price</div>
+                            </div>
+                            <div class="table-main-body">
+                                <div class="table-body">
+                                    <div>
+                                        <select class="selectpicker" data-live-search-style="startsWith" data-live-search="true">
+                                            <option >Reliance Industries Ltd.</option>
+                                            <option >Wipro Ltd.</option>
+                                            <option >Kotak Mahindra Bank Ltd.</option>
+                                            <option >Hindalco Industries Ltd.</option>
+                                            <option >HCL Technologies Ltd.</option>
+                                            <option >Oil & Natural Gas Corporation Ltd.</option>
+                                            <option >Vedanta Ltd.</option>
+                                            <option >Tech Mahindra Ltd.</option>
+                                            <option >Tata Consultancy Services Ltd.</option>
+                                            <option >Maruti Suzuki India Ltd.</option>
+                                            <option >Bajaj Finance Ltd.</option>
+                                            <option >HDFC</option>
+                                            <option >HDFC Bank Ltd.</option>
+                                            <option >Mahindra & Mahindra Ltd.</option>
+                                            <option >Cipla Ltd.</option>
+                                            <option >Titan Company Ltd.</option>
+                                            <option >Indiabulls Housing Finance Ltd.</option>
+                                            <option >Indian Oil Corporation Ltd.</option>
+                                            <option >Zee Entertainment Enterprises Ltd.</option>
+                                            <option >Bharat Petroleum Corporation Ltd</option>
+                                            <option >Infosys Ltd.</option>
+                                            <option >Bajaj Auto Ltd.</option>
+                                            <option >ICICI Bank Ltd.</option>
+                                            <option >UPL Ltd.</option>
+                                            <option >IndusInd Bank Ltd.</option>
+                                            <option >Tata Steel Ltd.</option>
+                                            <option >Hero MotoCorp Ltd.</option>
+                                            <option >Power Grid Corporation Of India Ltd.</option>
+                                            <option >NTPC Ltd.</option>
+                                            <option >Dr. Reddys Laboratories Ltd.</option>
+                                            <option >State Bank Of India</option>
+                                            <option >Bharti Infratel Ltd.</option>
+                                            <option >Ultratech Cement Ltd.</option>
+                                            <option >Tata Motors Ltd</option>
+                                            <option >Yes Bank Ltd.</option>
+                                            <option >Godavari Drugs Ltd.</option>
+                                            <option >PC Jeweller</option>
+                                            <option >PVR</option>
+                                            <option >INOX</option>
+                                            <option >Dogecoin</option>
+                                            <option >Vodafone Idea</option>
+                                            <option >Ambuja Cements</option>
+                                            <option >IRB</option>
+                                            <option >L & T</option>
+                                            <option >Sun Pharmaceutical Industries Limited</option>
+                                            <option >Vodafone </option>
+                                            <option >Idea</option>
+                                        </select>
+                                    </div>
+                                    <div>1000000</div>
+                                    <div>1000000</div>
+                                    <div><input type="text" pattern="[0-9]"></div>
+                                </div>
+                                <div class="table-body">
+                                    <div>
+                                        <select class="selectpicker" data-live-search-style="startsWith" data-live-search="true">
+                                            <option >Reliance Industries Ltd.</option>
+                                            <option >Wipro Ltd.</option>
+                                            <option >Kotak Mahindra Bank Ltd.</option>
+                                            <option >Hindalco Industries Ltd.</option>
+                                            <option >HCL Technologies Ltd.</option>
+                                            <option >Oil & Natural Gas Corporation Ltd.</option>
+                                            <option >Vedanta Ltd.</option>
+                                            <option >Tech Mahindra Ltd.</option>
+                                            <option >Tata Consultancy Services Ltd.</option>
+                                            <option >Maruti Suzuki India Ltd.</option>
+                                            <option >Bajaj Finance Ltd.</option>
+                                            <option >HDFC</option>
+                                            <option >HDFC Bank Ltd.</option>
+                                            <option >Mahindra & Mahindra Ltd.</option>
+                                            <option >Cipla Ltd.</option>
+                                            <option >Titan Company Ltd.</option>
+                                            <option >Indiabulls Housing Finance Ltd.</option>
+                                            <option >Indian Oil Corporation Ltd.</option>
+                                            <option >Zee Entertainment Enterprises Ltd.</option>
+                                            <option >Bharat Petroleum Corporation Ltd</option>
+                                            <option >Infosys Ltd.</option>
+                                            <option >Bajaj Auto Ltd.</option>
+                                            <option >ICICI Bank Ltd.</option>
+                                            <option >UPL Ltd.</option>
+                                            <option >IndusInd Bank Ltd.</option>
+                                            <option >Tata Steel Ltd.</option>
+                                            <option >Hero MotoCorp Ltd.</option>
+                                            <option >Power Grid Corporation Of India Ltd.</option>
+                                            <option >NTPC Ltd.</option>
+                                            <option >Dr. Reddys Laboratories Ltd.</option>
+                                            <option >State Bank Of India</option>
+                                            <option >Bharti Infratel Ltd.</option>
+                                            <option >Ultratech Cement Ltd.</option>
+                                            <option >Tata Motors Ltd</option>
+                                            <option >Yes Bank Ltd.</option>
+                                            <option >Godavari Drugs Ltd.</option>
+                                            <option >PC Jeweller</option>
+                                            <option >PVR</option>
+                                            <option >INOX</option>
+                                            <option >Dogecoin</option>
+                                            <option >Vodafone Idea</option>
+                                            <option >Ambuja Cements</option>
+                                            <option >IRB</option>
+                                            <option >L & T</option>
+                                            <option >Sun Pharmaceutical Industries Limited</option>
+                                            <option >Vodafone </option>
+                                            <option >Idea</option>               
+                                        </select>
+                                    </div>
+                                    <div>1000000</div>
+                                    <div>1000000</div>
+                                    <div><input type="text" pattern="[0-9]"></div>
+                                </div>
+                                <div class="table-body">
+                                    <div>
+                                        <select class="selectpicker" data-live-search-style="startsWith" data-live-search="true">
+                                            <option >Reliance Industries Ltd.</option>
+                                            <option >Wipro Ltd.</option>
+                                            <option >Kotak Mahindra Bank Ltd.</option>
+                                            <option >Hindalco Industries Ltd.</option>
+                                            <option >HCL Technologies Ltd.</option>
+                                            <option >Oil & Natural Gas Corporation Ltd.</option>
+                                            <option >Vedanta Ltd.</option>
+                                            <option >Tech Mahindra Ltd.</option>
+                                            <option >Tata Consultancy Services Ltd.</option>
+                                            <option >Maruti Suzuki India Ltd.</option>
+                                            <option >Bajaj Finance Ltd.</option>
+                                            <option >HDFC</option>
+                                            <option >HDFC Bank Ltd.</option>
+                                            <option >Mahindra & Mahindra Ltd.</option>
+                                            <option >Cipla Ltd.</option>
+                                            <option >Titan Company Ltd.</option>
+                                            <option >Indiabulls Housing Finance Ltd.</option>
+                                            <option >Indian Oil Corporation Ltd.</option>
+                                            <option >Zee Entertainment Enterprises Ltd.</option>
+                                            <option >Bharat Petroleum Corporation Ltd</option>
+                                            <option >Infosys Ltd.</option>
+                                            <option >Bajaj Auto Ltd.</option>
+                                            <option >ICICI Bank Ltd.</option>
+                                            <option >UPL Ltd.</option>
+                                            <option >IndusInd Bank Ltd.</option>
+                                            <option >Tata Steel Ltd.</option>
+                                            <option >Hero MotoCorp Ltd.</option>
+                                            <option >Power Grid Corporation Of India Ltd.</option>
+                                            <option >NTPC Ltd.</option>
+                                            <option >Dr. Reddys Laboratories Ltd.</option>
+                                            <option >State Bank Of India</option>
+                                            <option >Bharti Infratel Ltd.</option>
+                                            <option >Ultratech Cement Ltd.</option>
+                                            <option >Tata Motors Ltd</option>
+                                            <option >Yes Bank Ltd.</option>
+                                            <option >Godavari Drugs Ltd.</option>
+                                            <option >PC Jeweller</option>
+                                            <option >PVR</option>
+                                            <option >INOX</option>
+                                            <option >Dogecoin</option>
+                                            <option >Vodafone Idea</option>
+                                            <option >Ambuja Cements</option>
+                                            <option >IRB</option>
+                                            <option >L & T</option>
+                                            <option >Sun Pharmaceutical Industries Limited</option>
+                                            <option >Vodafone </option>
+                                            <option >Idea</option>
+                                            </select>
+                                    </div>
+                                    <div>1000000</div>
+                                    <div>1000000</div>
+                                    <div><input type="text" pattern="[0-9]"></div>
+                                </div>
+                                <div class="table-body">
+                                    <div>
+                                        <select class="selectpicker" data-live-search-style="startsWith" data-live-search="true">
+                                            <option >Reliance Industries Ltd.</option>
+                                            <option >Wipro Ltd.</option>
+                                            <option >Kotak Mahindra Bank Ltd.</option>
+                                            <option >Hindalco Industries Ltd.</option>
+                                            <option >HCL Technologies Ltd.</option>
+                                            <option >Oil & Natural Gas Corporation Ltd.</option>
+                                            <option >Vedanta Ltd.</option>
+                                            <option >Tech Mahindra Ltd.</option>
+                                            <option >Tata Consultancy Services Ltd.</option>
+                                            <option >Maruti Suzuki India Ltd.</option>
+                                            <option >Bajaj Finance Ltd.</option>
+                                            <option >HDFC</option>
+                                            <option >HDFC Bank Ltd.</option>
+                                            <option >Mahindra & Mahindra Ltd.</option>
+                                            <option >Cipla Ltd.</option>
+                                            <option >Titan Company Ltd.</option>
+                                            <option >Indiabulls Housing Finance Ltd.</option>
+                                            <option >Indian Oil Corporation Ltd.</option>
+                                            <option >Zee Entertainment Enterprises Ltd.</option>
+                                            <option >Bharat Petroleum Corporation Ltd</option>
+                                            <option >Infosys Ltd.</option>
+                                            <option >Bajaj Auto Ltd.</option>
+                                            <option >ICICI Bank Ltd.</option>
+                                            <option >UPL Ltd.</option>
+                                            <option >IndusInd Bank Ltd.</option>
+                                            <option >Tata Steel Ltd.</option>
+                                            <option >Hero MotoCorp Ltd.</option>
+                                            <option >Power Grid Corporation Of India Ltd.</option>
+                                            <option >NTPC Ltd.</option>
+                                            <option >Dr. Reddys Laboratories Ltd.</option>
+                                            <option >State Bank Of India</option>
+                                            <option >Bharti Infratel Ltd.</option>
+                                            <option >Ultratech Cement Ltd.</option>
+                                            <option >Tata Motors Ltd</option>
+                                            <option >Yes Bank Ltd.</option>
+                                            <option >Godavari Drugs Ltd.</option>
+                                            <option >PC Jeweller</option>
+                                            <option >PVR</option>
+                                            <option >INOX</option>
+                                            <option >Dogecoin</option>
+                                            <option >Vodafone Idea</option>
+                                            <option >Ambuja Cements</option>
+                                            <option >IRB</option>
+                                            <option >L & T</option>
+                                            <option >Sun Pharmaceutical Industries Limited</option>
+                                            <option >Vodafone </option>
+                                            <option >Idea</option>
+                                        </select>
+                                    </div>
+                                    <div>1000000</div>
+                                    <div>1000000</div>
+                                    <div><input type="text" pattern="[0-9]"></div>
+                                </div>
+                                <div class="table-body">
+                                    <div>
+                                        <select class="selectpicker" data-live-search-style="startsWith" data-live-search="true">
+                                            <option >Reliance Industries Ltd.</option>
+                                            <option >Wipro Ltd.</option>
+                                            <option >Kotak Mahindra Bank Ltd.</option>
+                                            <option >Hindalco Industries Ltd.</option>
+                                            <option >HCL Technologies Ltd.</option>
+                                            <option >Oil & Natural Gas Corporation Ltd.</option>
+                                            <option >Vedanta Ltd.</option>
+                                            <option >Tech Mahindra Ltd.</option>
+                                            <option >Tata Consultancy Services Ltd.</option>
+                                            <option >Maruti Suzuki India Ltd.</option>
+                                            <option >Bajaj Finance Ltd.</option>
+                                            <option >HDFC</option>
+                                            <option >HDFC Bank Ltd.</option>
+                                            <option >Mahindra & Mahindra Ltd.</option>
+                                            <option >Cipla Ltd.</option>
+                                            <option >Titan Company Ltd.</option>
+                                            <option >Indiabulls Housing Finance Ltd.</option>
+                                            <option >Indian Oil Corporation Ltd.</option>
+                                            <option >Zee Entertainment Enterprises Ltd.</option>
+                                            <option >Bharat Petroleum Corporation Ltd</option>
+                                            <option >Infosys Ltd.</option>
+                                            <option >Bajaj Auto Ltd.</option>
+                                            <option >ICICI Bank Ltd.</option>
+                                            <option >UPL Ltd.</option>
+                                            <option >IndusInd Bank Ltd.</option>
+                                            <option >Tata Steel Ltd.</option>
+                                            <option >Hero MotoCorp Ltd.</option>
+                                            <option >Power Grid Corporation Of India Ltd.</option>
+                                            <option >NTPC Ltd.</option>
+                                            <option >Dr. Reddys Laboratories Ltd.</option>
+                                            <option >State Bank Of India</option>
+                                            <option >Bharti Infratel Ltd.</option>
+                                            <option >Ultratech Cement Ltd.</option>
+                                            <option >Tata Motors Ltd</option>
+                                            <option >Yes Bank Ltd.</option>
+                                            <option >Godavari Drugs Ltd.</option>
+                                            <option >PC Jeweller</option>
+                                            <option >PVR</option>
+                                            <option >INOX</option>
+                                            <option >Dogecoin</option>
+                                            <option >Vodafone Idea</option>
+                                            <option >Ambuja Cements</option>
+                                            <option >IRB</option>
+                                            <option >L & T</option>
+                                            <option >Sun Pharmaceutical Industries Limited</option>
+                                            <option >Vodafone </option>
+                                            <option >Idea</option>
+                                        </select>
+                                    </div>
+                                    <div>1000000</div>
+                                    <div>1000000</div>
+                                    <div><input type="text" pattern="[0-9]"></div>
+                                </div>
+                                <div class="button">
+                                    <input type="button" value="Update Base Price">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="news">
+                    <div class="news-heading">
+                        Market News
+                        <img src="../vendors/images/refresh-button.png" alt="Refresh">
+                    </div>
+                    <div class="news-content">
+                        <marquee direction="up" height="100%">
+                            <p>jhdsuisvjvjhv vvkkmhb kdhygckj, kkns dvsnkjbk</p>
+                            <p>jugxcfhvjbknlk zxtgchtvjbknlk</p>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/timer.js"></script>
+    <script src="../vendors/jquery/jquery-3.1.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Show hide popover
+            $(".dropdown").click(function() {
+                $(this).find(".dropdown-menu").slideToggle();
+            });
+        });
+        $(document).on("click", function(event) {
+            var $trigger = $(".dropdown");
+            if ($trigger !== event.target && !$trigger.has(event.target).length) {
+                $(".dropdown-menu").slideUp("fast");
+            }
+        });
+        $(".cat").click(function() {
+            $(this).toggleClass("cat.down");
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            // Show hide popover
+            $(".dropdown").click(function() {
+                $(this).find(".dropdown-menu").slideToggle();
+            });
+        });
+        $(document).on("click", function(event) {
+            var $trigger = $(".dropdown");
+            if ($trigger !== event.target && !$trigger.has(event.target).length) {
+                $(".dropdown-menu").slideUp("fast");
+            }
+        });
+        $(".cat").click(function() {
+            $(this).toggleClass("cat.down");
+        });
+    </script>
+    <script>
+        var dropdown3 = document.querySelector(".dropdown2");
+        var i;
+        dropdown3.addEventListener("click", function() {
+            var dropdownContent3 = this.nextElementSibling;
+            console.log(dropdownContent3);
+            if (dropdownContent3.style.display == "block") {
+                dropdownContent3.style.display = "none";
+
+            } else {
+                dropdownContent3.style.display = "block";
+            }
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $("select").select2();
+        });
+    </script>
+</body>
+
+</html>

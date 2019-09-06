@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add User - wolf of wall street 2.0 | 2k29</title>
+    <link rel="icon" type="image" sizes="17x17" href="../vendors/images/wall-street-logo-web.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="side-bar">
+            <div class="side-images">
+                <img src="../vendors/images/wall-street-logo-web.png" alt="logo" class="nav-logo">
+            </div>
+            <div class="side-images">
+                <a href="./dashboard.html"><img src="../vendors/images/dashboard-grey.png" class="images" title="Dashboard"></a>
+            </div>
+            <div class="side-images">
+                <a href="./user.html"><img src="../vendors/images/about-us-blue.png" class="images" title="User Details"></a>
+            </div>
+            <div class="side-images">
+                <img src="../vendors/images/transaction-grey.png" class="images dropdown2" title="Change Price">
+                <div class="dropdown-content">
+                    <a href="./update-price.html"><img src="../vendors/images/update-price-grey.png" alt="price-update" class="dropdown-images" title="Update Price"></a>
+                    <a href="./update-volume.html"><img src="../vendors/images/volume-update-grey.png" alt="volume-update" class="dropdown-images" title="Update Volume"></a>
+                    <a href="./update-base-price.html"><img src="../vendors/images/base-price-grey.png" alt="base-price-update" class="dropdown-images" title="Update Base Price"></a>
+                </div>
+            </div>
+            <div class="side-images">
+                <a href="./news.html"><img src="../vendors/images/add-news-grey.png" class="images" title="Add News"></a>
+            </div>
+            <div class="side-images">
+                <a href="./leaderboard.html"><img src="../vendors/images/leaderboard-grey.png" class="images" title="Leaderboard"></a>
+            </div>
+            <div class="side-images">
+                <a href="./history.html"><img src="../vendors/images/history-grey.png" class="images" title="History"></a>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-timer">
+                <p id="demo"></p>
+            </div>
+            <div class="nav-heading">Wolf of the wall street - 2.0</div>
+            <div class="nav-user">
+                <div class="dropdown">
+                    <span><a href="#">Deexit Patel<img src="../vendors/images/down-arrow-blue.png" style="height:15px; margin-left:5px;"></a></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="../change-password.html">Change Password</a></li>
+                        <li><a href="../index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-wrapper">
+            <div class="leftside">
+                <div class="user-change">
+                    <div class="left-user">
+                        <div class="left-user-heading">Add New User</div>
+                        <div class="left-user-content">
+                            <div class="left-user-details">
+                                <div class="label">First Name:</div>
+                                <div class="fields"><input type="text" name="first name"></div>
+                            </div>
+                            <div class="left-user-details">
+                                <div class="label">Last Name:</div>
+                                <div class="fields"><input type="text" name="last name"></div>
+                            </div>
+                            <div class="left-user-details">
+                                <div class="label">E-mail:</div>
+                                <div class="fields"><input type="email" name="email"></div>
+                            </div>
+                            <div class="left-user-details">
+                                <div class="label">Mobile No.:</div>
+                                <div class="fields"><input type="tel" name="mobile"></div>
+                            </div>
+                            <div class="left-user-details">
+                                <div class="label">Password:</div>
+                                <div class="fields"><input type="password" name="password"></div>
+                            </div>
+
+                            <div class="left-user-details">
+                                <div class="label"></div>
+                                <div class="fields"><input type="button" value="Add new User" class="user-button"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-user">
+                        <div class="right-user-heading">Get User Details</div>
+                        <div class="right-user-content">
+                            <div class="right-user-details">
+                                <div class="label">Mobile No:</div>
+                                <div class="fields"><input type="tel" name="mobile"></div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label"></div>
+                                <div class="fields"><input type="button" value="Get User Details" class="user-button"></div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label">First Name:</div>
+                                <div class="get-fields">Deexit</div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label">Last Name:</div>
+                                <div class="get-fields">Patel</div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label">Email:</div>
+                                <div class="get-fields">deexitpatel4@gmail.com</div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label">Password:</div>
+                                <div class="get-fields">qwerty1234</div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label">Mobile No.:</div>
+                                <div class="get-fields">9876543210</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-user">
+                    <div class="bottom-user-container">
+                        <div class="bottom-user-heading">Reset Password</div>
+                        <div class="bottom-user-content">
+                            <div class="left-user-details">
+                                <div class="label">Mobile No.:</div>
+                                <div class="fields"><input type="tel" name="mobile"></div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label"></div>
+                                <div class="fields"><input type="button" value="Reset Password" class="user-button"></div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label">Add New Password:</div>
+                                <div class="fields"><input type="password" name="password"></div>
+                            </div>
+                            <div class="right-user-details">
+                                <div class="label"></div>
+                                <div class="fields"><input type="button" value="Confirm" class="user-button"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="news">
+                    <div class="news-heading">
+                        Market News
+                        <img src="../vendors/images/refresh-button.png" alt="Refresh">
+                    </div>
+                    <div class="news-content">
+                        <marquee direction="up" height="100%">
+                            <p>jhdsuisvjvjhv vvkkmhb kdhygckj, kkns dvsnkjbk</p>
+                            <p>jugxcfhvjbknlk zxtgchtvjbknlk</p>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../vendors/jquery/jquery-3.1.1.min.js"></script>
+    <script src="../js/timer.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Show hide popover
+            $(".dropdown").click(function() {
+                $(this).find(".dropdown-menu").slideToggle();
+            });
+        });
+        $(document).on("click", function(event) {
+            var $trigger = $(".dropdown");
+            if ($trigger !== event.target && !$trigger.has(event.target).length) {
+                $(".dropdown-menu").slideUp("fast");
+            }
+        });
+        $(".cat").click(function() {
+            $(this).toggleClass("cat.down");
+        });
+    </script>
+    <script>
+        var dropdown3 = document.querySelector(".dropdown2");
+        var i;
+        dropdown3.addEventListener("click", function() {
+            var dropdownContent3 = this.nextElementSibling;
+            console.log(dropdownContent3);
+            if (dropdownContent3.style.display == "block") {
+                dropdownContent3.style.display = "none";
+
+            } else {
+                dropdownContent3.style.display = "block";
+            }
+        });
+    </script>
+
+</body>
+
+</html>

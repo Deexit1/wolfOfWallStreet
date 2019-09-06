@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Broker - wolf of wall street 2.0 | Spectrum 2k19</title>
+    <link rel="icon" type="image" sizes="17x17" href="../vendors/images/wall-street-logo-web.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="side-bar">
+            <div class="side-images">
+                <img src="../vendors/images/wall-street-logo-web.png" alt="logo" class="nav-logo">
+            </div>
+            <div class="side-images">
+                <a href="./broker.html"><img src="../vendors/images/support-blue.png" class="images"></a>
+            </div>
+            <div class="side-images">
+                <a href="./leaderboard.html"><img src="../vendors/images/leaderboard-grey.png" class="images" title="leaderboard"></a>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-timer">
+                <p id="demo"></p>
+            </div>
+            <div class="nav-heading">Wolf of the wall street - 2.0</div>
+            <div class="nav-user">
+                <div class="dropdown">
+                    <span style=" cursor: pointer">Deexit Patel<img src="../vendors/images/down-arrow-blue.png" style="height:15px; margin-left:5px;"></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="./change-password.html">Change Password</a></li>
+                        <li><a href="../index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-wrapper">
+            <div class="left-side">
+                <div class="broker">
+                    <div class="broker-heading">Broker</div>
+                    <div class="broker-content">
+                        <div class="broker-content-item">
+                            <div class="mobile">
+                                <span>Mobile No.:</span>
+                                <input type="text" name="mobile-no" placeholder="Mobile-no">
+                            </div>
+                            <div class="amount">
+                                <span>Amount:</span>
+                                <div class="amount-ul">
+                                    <ul>
+                                        <li><input type="radio" name="amount" checked>Rs. 10000</li>
+                                        <li><input type="submit" value="Deduct Amount" class="submit"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="news">
+                    <div class="news-heading">
+                        Market News
+                        <img src="../vendors/images/refresh-button.png" alt="Refresh">
+                    </div>
+                    <div class="news-content">
+                        <marquee direction="up" height="100%">
+                            <p>jhdsuisvjvjhv vvkkmhb kdhygckj, kkns dvsnkjbk</p>
+                            <p>jugxcfhvjbknlk zxtgchtvjbknlk</p>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/timer.js"></script>
+        <script src="../vendors/jquery/jquery-3.1.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Show hide popover
+                $(".dropdown").click(function() {
+                    $(this).find(".dropdown-menu").slideToggle();
+                });
+            });
+            $(document).on("click", function(event) {
+                var $trigger = $(".dropdown");
+                if ($trigger !== event.target && !$trigger.has(event.target).length) {
+                    $(".dropdown-menu").slideUp("fast");
+                }
+            });
+        </script>
+</body>
+
+</html>

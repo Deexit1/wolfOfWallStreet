@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard - wolf of wall street 2.0 | 2k29</title>
+    <link rel="icon" type="image" sizes="17x17" href="../vendors/images/wall-street-logo-web.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+
+</head>
+
+<body>
+    <div class="hide-wrapper"></div>
+    <div class="wrapper">
+        <div class="side-bar">
+            <div class="side-images">
+                <img src="../vendors/images/wall-street-logo-web.png" alt="logo" class="nav-logo">
+            </div>
+            <div class="side-images">
+                <a href="./dashboard.html"><img src="../vendors/images/dashboard-blue.png" class="images" title="Dashboard"></a>
+            </div>
+            <div class="side-images">
+                <a href="./user.html"><img src="../vendors/images/about-us-grey.png" class="images" title="User Details"></a>
+            </div>
+            <div class="side-images">
+                <img src="../vendors/images/transaction-grey.png" class="images dropdown2" title="Change Price">
+                <div class="dropdown-content">
+                    <a href="./update-price.html"><img src="../vendors/images/update-price-grey.png" alt="price-update" class="dropdown-images" title="Update Price"></a>
+                    <a href="./update-volume.html"><img src="../vendors/images/volume-update-grey.png" alt="volume-update" class="dropdown-images" title="Update Volume"></a>
+                    <a href="./update-base-price.html"><img src="../vendors/images/base-price-grey.png" alt="base-price-update" class="dropdown-images" title="Update Base Price"></a>
+                </div>
+            </div>
+            <div class="side-images">
+                <a href="./news.html"><img src="../vendors/images/add-news-grey.png" class="images" title="Add News"></a>
+            </div>
+            <div class="side-images">
+                <a href="./leaderboard.html"><img src="../vendors/images/leaderboard-grey.png" class="images" title="Leaderboard"></a>
+            </div>
+            <div class="side-images">
+                <a href="./history.html"><img src="../vendors/images/history-grey.png" class="images" title="History"></a>
+            </div>
+
+        </div>
+
+        <nav class="nav-bar">
+            <div class="nav-timer">
+                <p id="demo"></p>
+            </div>
+            <div class="nav-heading">Wolf of the wall street - 2.0</div>
+            <div class="nav-user">
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+                <div class="dropdown">
+                    <span><a href="#">Deexit Patel<img src="../vendors/images/down-arrow-blue.png" style="height:15px; margin-left:5px;"></a></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="../change-password.html">Change Password</a></li>
+                        <li><a href="../index.html">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-wrapper">
+            <div class="left-side">
+                <div class="palettes">
+                    <div class="avail-amount">
+                        <div class="amount">100000</div>
+                        <div class="info">Available Amount</div>
+                    </div>
+                    <div class="share-amount">
+                        <div class="amount">100000</div>
+                        <div class="info">Total Share Amount</div>
+                    </div>
+                    <div class="grossing-company">
+                        <div class="amount">100000</div>
+                        <div class="info">Grossing Company</div>
+                    </div>
+                    <div class="leaderboard">
+                        <div class="amount">100000</div>
+                        <div class="info">Leaderboard Top</div>
+                    </div>
+                </div>
+                <p class="company-heading">Company Details
+                </p>
+                <div class="company">
+                    <div class="category">
+                        <div class="categories" id="1" onclick="myFunction(this)">Refineries<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="2" onclick="myFunction(this)">IT - Software<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="3" onclick="myFunction(this)">Bank - Private<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="4" onclick="myFunction(this)">Steel & Iron Products<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="5" onclick="myFunction(this)">Automobie<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="6" onclick="myFunction(this)">Finance<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="7" onclick="myFunction(this)">Pharmaceuticals & Drugs<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="8" onclick="myFunction(this)">Diamond & Jewellery<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="9" onclick="myFunction(this)">Media & Entertainment<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="10" onclick="myFunction(this)">Power Generation / Distribution<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="11" onclick="myFunction(this)">Telecommunication - Service Provider<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="12" onclick="myFunction(this)">Cement & Construction Materials<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                        <div class="categories" id="13" onclick="myFunction(this)">Cryptocurrency<img src="../vendors/images/arrow-right.png" class="cat"></div>
+                    </div>
+                    <div class="company-details">
+                        <div class="company-category-1">
+                            <p class="heading">
+                                Category - 1: Refineries
+                            </p>
+                            <table>
+                                <thead>
+                                    <tr class="table">
+                                        <th>Comapny Name</th>
+                                        <th>Avail. Volume</th>
+                                        <th>CUR. Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table">
+                                        <td>Reliance Industries Ltd.</td>
+                                        <td>1000000</td>
+                                        <td>1000000<img src="../vendors/images/positive-change.png"></td>
+                                    </tr>
+
+                                    <tr class="table">
+                                        <td>Indian Oil Corporation Ltd.</td>
+                                        <td>1000000</td>
+                                        <td>1000000<img src="../vendors/images/positive-change.png"></td>
+                                    </tr>
+
+                                    <tr class="table">
+                                        <td>Bharat Petroleum Corporation Ltd</td>
+                                        <td>1000000</td>
+                                        <td>1000000<img src="../vendors/images/positive-change.png"></td>
+                                    </tr>
+
+                                    <tr class="table">
+                                        <td>ONGC</td>
+                                        <td>1000000</td>
+                                        <td>1000000<img src="../vendors/images/positive-change.png"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- <div class="company-category-default">
+                            <p class="default">Click companies' category to see companies</p>
+                            <p>(Please close the company before select the other one)</p>
+                        </div> -->
+                    </div>
+
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="news">
+                    <div class="news-heading">
+                        Market News
+                        <img src="../vendors/images/refresh-button.png" alt="Refresh">
+                    </div>
+                    <div class="news-content">
+                        <marquee direction="up" height="100%" onmouseover="this.stop()" onmouseout="this.start()">
+                            <p>jhdsuisvjvjhv </p>
+                            <p>jugxcfhvjbknlk</p>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/timer.js"></script>
+        <script src="../vendors/jquery/jquery-3.1.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Show hide popover
+                $(".dropdown").click(function() {
+                    $(this).find(".dropdown-menu").slideToggle();
+                });
+            });
+            $(document).on("click", function(event) {
+                var $trigger = $(".dropdown");
+                if ($trigger !== event.target && !$trigger.has(event.target).length) {
+                    $(".dropdown-menu").slideUp("fast");
+                }
+            });
+            $(".cat").click(function() {
+                $(this).toggleClass("cat.down");
+            });
+        </script>
+        <script>
+            function Function(ele) {
+
+                var dropdownContent = ele.parentNode.parentNode.nextElementSibling;
+
+                if (dropdownContent.style.display == "contents") {
+                    dropdownContent.style.display = "none";
+                    dropdownContent.style.transitionDuration = "1s";
+                } else {
+                    dropdownContent.style.display = "contents";
+                    dropdownContent.style.transitionDuration = "1s";
+                }
+            }
+        </script>
+        <script>
+            var dropdown3 = document.querySelector(".dropdown2");
+            var i;
+            dropdown3.addEventListener("click", function() {
+                var dropdownContent3 = this.nextElementSibling;
+                console.log(dropdownContent3);
+                if (dropdownContent3.style.display == "block") {
+                    dropdownContent3.style.display = "none";
+
+                } else {
+                    dropdownContent3.style.display = "block";
+                }
+            });
+        </script>
+</body>
+
+</html>
